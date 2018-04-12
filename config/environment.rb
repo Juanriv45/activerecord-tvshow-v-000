@@ -21,4 +21,3 @@ require_all 'app'
 if ENV["ACTIVE_RECORD_ENV"] == "test"
   ActiveRecord::Migration.verbose = false
 end
-
