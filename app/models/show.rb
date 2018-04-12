@@ -1,5 +1,4 @@
 class Show < ActiveRecord::Base
-  def change
   def highest_rating
      Shows.order(rating: :desc).first.rating
   end
@@ -8,4 +7,4 @@ end
 def least_popular_show
 end
 end
-end
+
