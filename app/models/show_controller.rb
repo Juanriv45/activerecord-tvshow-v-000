@@ -1,6 +1,7 @@
 def highest_rating
-   Show.order(rating: :desc).first.rating
+   Shows.order(rating: :desc).first.rating
 end
-def highest_rating
-   Show.order(rating: :desc).first.name
+def most_popular_show
+end
+def least_popular_show
 end
